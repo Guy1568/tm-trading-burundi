@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TM Trading Burundi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo {
+            max-width: 150px; /* Ajuste la taille du logo */
+            margin-bottom: 10px;
+        }
+
+        .hero {
+            background-image: url('tete.jpg'); /* Remplacez par votre image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .service {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Styles pour la section témoignages */
+        .testimonials {
+            background: #e9f5e9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .testimonial {
+            font-style: italic;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo TM Trading" class="logo"> <!-- Remplacez par votre logo -->
+        <h1>TM Trading Burundi</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#testimonials">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="hero" id="home">
+        Bienvenue chez TM Trading Burundi
+    </div>
+
+    <main>
+        <section id="services">
+            <h2>Nos Services</h2>
+            <div class="service">
+                <img src="vente.jpg" alt="Vente de pièces de voitures">
+                <h3>Vente de Pièces de Voitures</h3>
+                <p>Nous proposons une large gamme de pièces de rechange pour tous types de véhicules.</p>
+            </div>
+            <div class="service">
+                <img src="location.png" alt="Location de voitures">
+                <h3>Location de Voitures</h3>
+                <p>Des voitures modernes et fiables à louer pour tous vos déplacements.</p>
+            </div>
+            <div class="service">
+                <img src="vente.jpg" alt="Vente de voitures">
+                <h3>Vente de Voitures</h3>
+                <p>Achetez des voitures de qualité importées directement du Corée du Sud.</p>
+            </div>
+            <div class="service">
+                <img src="oil.jpg" alt="Vente d'huile à moteur">
+                <h3>Vente d'Huile à Moteur</h3>
+                <p>Huile à moteur de haute qualité pour le bon fonctionnement de votre véhicule.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>À Propos de Nous</h2>
+            <p>TM Trading Burundi est spécialisé dans la vente de pièces de voitures, la location et la vente de voitures, ainsi que d'huile à moteur de qualité. Nous importons nos produits du Corée du Sud pour garantir leur fiabilité et leur performance. Notre objectif est de fournir à nos clients des produits et services de la plus haute qualité.</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>Témoignages</h2>
+            <div class="testimonials">
+                <div class="testimonial">"Service exceptionnel et très professionnel. Je recommande vivement TM Trading!" - Jean D.</div>
+                <div class="testimonial">"Des voitures de qualité et un excellent service client." - Marie K.</div>
+                <div class="testimonial">"Je suis très satisfait de ma location de voiture." - Paul T.</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-Nous</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Votre Nom" required>
+                <input type="email" placeholder="Votre Email" required>
+                <textarea placeholder="Votre Message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TM Trading Burundi. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Merci pour votre message ! Nous vous contacterons bientôt.');
+            this.reset(); // Réinitialise le formulaire
+        });
+    </script>
+</body>
+</html>
